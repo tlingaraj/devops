@@ -3,6 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: example-deploy
+  namespace: jenkins
   labels:
     app: example-app
     test: test
